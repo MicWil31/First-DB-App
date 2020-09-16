@@ -1,0 +1,11 @@
+.ButtonsWrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+
+  .Button {
+    background: #32b132;
+    border: none;
+    padding: 0.2rem 0.3rem;
+  }
+}
