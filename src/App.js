@@ -1,5 +1,6 @@
 import React from "react";
 import Buttons from "./components/Buttons/Buttons";
+import Notifications from "./components/Notifications/Notifications";
 import "./App.css";
 
 function App() {
@@ -132,6 +133,7 @@ function App() {
         <h2 className="Header-copy">My First Database</h2>
         <Buttons />
       </header>
+      <Notifications />
     </div>
   );
 }

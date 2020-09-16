@@ -1,0 +1,20 @@
+.NotificationsWrapper {
+  border-radius: 3px;
+  -webkit-box-shadow: 2px 9px 17px 0px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 2px 9px 17px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 2px 9px 17px 0px rgba(0, 0, 0, 0.4);
+  margin: 1rem;
+  overflow: auto;
+  padding: 0.5rem;
+  width: 40%;
+
+  .HeaderCopy {
+    font-size: 0.7rem;
+    padding-bottom: 0.1rem;
+  }
+
+  .NoNotification {
+    font-size: 0.5rem;
+    padding-top: 0.3rem;
+  }
+}
